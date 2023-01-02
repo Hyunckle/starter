@@ -11,4 +11,11 @@ def sub(a,b):
 def absu(a): 
 	return abs(b) 
 
+def compare(a,b): 
+	if a>b: 
+		print(f"{a} is greater than {b} ") 
+	elif a<b: 
+		print(f"{b} greater than {a} ")
+	else: 
+		print(f"{a} and {b} are equal")
  
